@@ -4,9 +4,6 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        if len(strs) < 2:
-            return [strs]
-        
         d = dict()
         for str in strs:
             count = [0] * 26
