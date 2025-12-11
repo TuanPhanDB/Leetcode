@@ -7,8 +7,5 @@ class Solution:
                 if tickets[i] > 0:
                     tickets[i] -= 1
                     time += 1
-
-                if i == k and tickets[k] == 0:
-                    return time
         
-        
+        return time
